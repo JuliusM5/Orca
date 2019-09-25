@@ -82,7 +82,7 @@ $conn = new mysqli('localhost', 'root', '', 'test1');
 
     <div class="row">
         <div class="col-md-12">
-            <textarea class="form-control" id="mainComment" placeholder="Pridėti komentarą" cols="30" rows="2"></textarea><br>
+            <textarea class="form-control" id="mainComment" placeholder="Parašyti komentarą" cols="30" rows="2"></textarea><br>
             <button style="float:right" class="btn-primary btn" onclick="isReply = false;" id="addComment">Pridėti komentarą</button>
         </div>
     </div>
