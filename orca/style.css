@@ -1,0 +1,33 @@
+.container{
+ background-color:moccasin;
+}
+.comment {
+    margin-bottom: 20px;
+}
+
+.user {
+    font-weight: bold;
+    color: black;
+}
+
+.time, .reply {
+    color: gray;
+}
+
+.userComment {
+    color: #000;
+}
+
+.replies .comment {
+    margin-top: 20px;
+
+}
+
+.replies {
+    margin-left: 20px;
+
+}
+
+#registerModal input, #logInModal input {
+    margin-top: 10px;
+}
