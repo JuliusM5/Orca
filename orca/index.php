@@ -74,7 +74,7 @@ $conn = new mysqli('localhost', 'root', '', 'test1');
                 ';
             else
                 echo '
-                    <a href="logout.php" class="btn btn-warning">Log Out</a>
+                    <a href="logout.php" class="btn btn-warning">Atsijungti</a>
                 ';
             ?>
         </div>
@@ -165,7 +165,7 @@ $conn = new mysqli('localhost', 'root', '', 'test1');
                         password: password
                     }, success: function (response) {
                         if (response === 'failedEmail')
-                            alert('Įveskite email!');
+                            alert('Įveskite tinkamą email formatą!');
                         else if (response === 'failedUserExists')
                             alert('Šis vartotojas egzistuoja!');
                         else
